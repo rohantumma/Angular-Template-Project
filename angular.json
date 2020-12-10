@@ -25,7 +25,8 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/app"
             ],
             "styles": [
               "src/styles.css"
@@ -124,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "Ang-demo"
+  "defaultProject": "Ang-demo",
+  "cli": {
+    "analytics": false
+  }
 }
