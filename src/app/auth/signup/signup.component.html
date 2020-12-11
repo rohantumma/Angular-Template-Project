@@ -1,0 +1,87 @@
+<div class="site-wrapper">
+	<!-- main content area -->
+	<main class="content float-right">
+		<!-- section hero -->
+    <section class="hero background parallax shadow-dark d-flex align-items-center" style="height: 620px;" id="home">
+      <div class="white-bg">
+
+        <!-- SignUp -->
+        <section id="Sign in" class=" padding">
+            <h3 class="section-title">Sign in</h3>
+            <div class="spacer" data-height="80"></div>
+
+            <div class="row">
+
+              <div class="col-md-4 mb-4 mb-md-0">
+                <!-- contact info -->
+                <div class="contact-info mb-5">
+                  <i class="icon-phone"></i>
+                  <div class="details">
+                    <h5>Phone</h5>
+                    <span>+91 7276872665</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-8">
+                <!-- Contact Form -->
+                <form id="contact-form" class="contact-form" method="post" action="form/contact.php">
+
+                  <div class="messages"></div>
+
+                  <div class="row">
+                    <div class="column col-md-6">
+                      <!-- First Name input -->
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="InputNameFirst" id="InputNameFirst" placeholder="First name" required="required" data-error="Name is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+
+                    <div class="column col-md-6">
+                      <!-- Last Name input -->
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="text" name="InputNameLast" placeholder="Last name" required="required" data-error="name is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+
+                    <div class="column col-md-12">
+                      <!-- Email input -->
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email address" required="required" data-error="Email is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+
+                    <div class="column col-md-12">
+                      <!-- Password input -->
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="InputPassword" name="InputPassword" placeholder="Password" required="required" data-error="Password is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+
+
+                    <div class="column col-md-12">
+                      <!-- Address Input -->
+                      <div class="form-group">
+                        <textarea name="InputAddress" id="InputAddress" class="form-control" rows="3" placeholder="Address" required="required" data-error="Address is required."></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default"><i class="icon-paper-plane"></i>Sign in</button><!-- Send Button -->
+                </form>
+                <!-- Contact Form end -->
+              </div>
+
+            </div>
+        </section>
+
+      </div>
+    </section>
+  </main>
+</div>
+
