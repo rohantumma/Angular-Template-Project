@@ -7,6 +7,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Auth0
 https://auth0.com/blog/complete-guide-to-angular-user-authentication
 
+## Auth with Firebase
+https://www.positronx.io/full-angular-7-firebase-authentication-system/
 
 ## Development server
 
