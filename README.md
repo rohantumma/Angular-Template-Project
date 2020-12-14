@@ -10,6 +10,9 @@ https://auth0.com/blog/complete-guide-to-angular-user-authentication
 ## Auth with Firebase
 https://www.positronx.io/full-angular-7-firebase-authentication-system/
 
+## Angular Firebase Lite
+https://github.com/hamedbaatour/angularfire-lite
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
