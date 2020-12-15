@@ -13,6 +13,8 @@ https://www.positronx.io/full-angular-7-firebase-authentication-system/
 ## Angular Firebase Lite
 https://github.com/hamedbaatour/angularfire-lite
 
+https://www.youtube.com/watch?v=g3WSBbJ-G30&list=PLC3y8-rFHvwg2RBz6UplKTGIXREj9dV0G&index=3
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
