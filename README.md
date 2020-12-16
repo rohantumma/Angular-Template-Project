@@ -1,6 +1,19 @@
-# AngDemo
+# Angular-Template-Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+
+![Demo_pic](https://user-images.githubusercontent.com/34683346/101991794-01c01c00-3cd5-11eb-87e4-3148d5df606b.png)
+
+## Auth0
+https://auth0.com/blog/complete-guide-to-angular-user-authentication
+
+## Auth with Firebase
+https://www.positronx.io/full-angular-7-firebase-authentication-system/
+
+## Angular Firebase Lite
+https://github.com/hamedbaatour/angularfire-lite
+
+https://www.youtube.com/watch?v=g3WSBbJ-G30&list=PLC3y8-rFHvwg2RBz6UplKTGIXREj9dV0G&index=3
 
 ## Development server
 
