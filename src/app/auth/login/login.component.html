@@ -2,7 +2,7 @@
 	<!-- main content area -->
 	<main class="content float-right">
 		<!-- section hero -->
-    <section class="hero background parallax shadow-dark d-flex align-items-center" style="height: 420px;" id="home">
+    <section class="hero background parallax shadow-dark d-flex align-items-center" style="height: 550px;" id="home">
       <div class="white-bg" >
 
         <!-- LogIn -->
@@ -25,28 +25,27 @@
 
               <div class="col-md-8">
                 <!-- Contact Form -->
-                <form id="contact-form" class="contact-form" method="post" action="form/contact.php">
-
+                <form (submit)="onLogin(loginForm)"  #loginForm="ngForm" id="contact-form" class="contact-form" >
                   <div class="row">
-
                     <div class="column col-md-12">
                       <!-- Email input -->
                       <div class="form-group">
-                        <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email address" required="required" data-error="Email is required.">
+                        <input type="email" class="form-control" id="InputEmail" name="email"
+                               placeholder="Email address" required="required" data-error="Email is required."
+                               ngModel #emailInput="ngModel" required email>
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
-
                     <div class="column col-md-12">
                       <!-- Password input -->
                       <div class="form-group">
-                        <input type="text" class="form-control" id="InputPassword" name="InputPassword" placeholder="Password" required="required" data-error="Password is required.">
+                        <input type="text" class="form-control" id="InputPassword" name="password"
+                               placeholder="Password" required="required" data-error="Password is required."
+                               ngModel #passwordInput="ngModel" required>
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
-
                   </div>
-
                   <button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default"><i class="icon-paper-plane"></i>Log in</button><!-- Send Button -->
                 </form>
                 <!-- Contact Form end -->

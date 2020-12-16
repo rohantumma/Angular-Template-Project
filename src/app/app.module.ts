@@ -9,6 +9,20 @@ import { FooterComponent } from './footer/footer.component';
 import { OopsComponent } from './oops/oops.component';
 import { LoginComponent } from './auth/login/login.component';
 
+// Fire base
+
+// env import
+import { environment } from '../environments/environment';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
+import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
+
+//
+import { ReactiveFormsModule, FormsModule } from "@angular/forms";
+import { SignupComponent } from './auth/signup/signup.component';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,11 +30,18 @@ import { LoginComponent } from './auth/login/login.component';
     HeaderComponent,
     FooterComponent,
     OopsComponent,
-    LoginComponent
+    LoginComponent,
+    DashboardComponent,
+    ForgotPasswordComponent,
+    VerifyEmailComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
